@@ -19,6 +19,8 @@ namespace HelloWPF
         public MainWindow()
         {
             InitializeComponent();
+            var i = 0; 
+            i = i + 1;
         }
     }
 }
