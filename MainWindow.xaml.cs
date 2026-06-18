@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.Cryptography.Xml;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -22,6 +23,9 @@ namespace HelloWPF
             var i = 0; 
             i = i + 1;
             i++;
+            var j = 0;
+            j = i * 12;
+            T1.Text = j.ToString(); 
         }
     }
 }
