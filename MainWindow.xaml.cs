@@ -21,6 +21,7 @@ namespace HelloWPF
             InitializeComponent();
             var i = 0; 
             i = i + 1;
+            i++;
         }
     }
 }
