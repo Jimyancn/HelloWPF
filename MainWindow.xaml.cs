@@ -26,6 +26,7 @@ namespace HelloWPF
             var j = 0;
             j = i * 12;
             T1.Text = j.ToString(); 
+            T2.Text = "Test ok";
         }
     }
 }
